@@ -88,9 +88,7 @@ If you installed the bash script add `sudo` before the path.
 
 I recommend using an alias like: `alias fan-d="nohup fan >/dev/null 2>&1 &"`
 
-To kill the process use:
-
-`kill -9 <PID>`
+To kill the process use: `kill -9 <PID>`
 
 The PID is returned by `fan-d`.
 
