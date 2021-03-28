@@ -108,7 +108,7 @@ if check_reply "$REPLY"; then
             ;;
         2)
             cronjob "sh" "fan"
-            printf "\nCronjob successfully created.\n"
+            printf "\nCronjob successfully created. To inspect your crontab run ${MAGENTA}crontab -e${NC}\n"
             ;;
         3)
             printf "\nWhich script do you want to autostart?\n1) Python\n2) Bash\n\nEnter your choice: "
@@ -117,11 +117,11 @@ if check_reply "$REPLY"; then
             case "$REPLY" in
             1)
                 cronjob "py" "fan-py"
-                printf "\nCronjob successfully created.\n"
+                printf "\nCronjob successfully created. To inspect your crontab run ${MAGENTA}crontab -e${NC}\n"
                 ;;
             2)
                 cronjob "sh" "fan-sh"
-                printf "\nCronjob successfully created.\n"
+                printf "\nCronjob successfully created. To inspect your crontab run ${MAGENTA}crontab -e${NC}\n"
                 ;;
             *)
                 printf "\nUnknown option: \"%s\"\n" "$REPLY"
