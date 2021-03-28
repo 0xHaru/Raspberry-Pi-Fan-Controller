@@ -40,4 +40,4 @@ Do you want to remove the cronjob? (y\N) "
 
 read -r REPLY
 
-[ "$REPLY" = "y" ] && remove_cronjob && printf "\nCronjob successfully removed.\n" || printf "\nSkipping.\n\n"
+[ "$REPLY" = "y" ] && remove_cronjob && printf "\nCronjob successfully removed.\n\n" || printf "\nSkipping.\n\n"
