@@ -101,7 +101,6 @@ read -r REPLY
 
 if check_reply "$REPLY"; then
     sudo grep "fan" "/var/spool/cron/crontabs/$USER" && printf "Skipping, the cronjob already exists." || {
-        log
         case "$choice" in
         1)
             cronjob "py" "fan"
