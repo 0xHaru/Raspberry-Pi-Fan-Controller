@@ -140,4 +140,4 @@ RAM AVG: 12.7267%
 
 ## License
 
-This project uses the following license: [MIT.](LICENSE)
+This project uses the following license: [MIT](LICENSE).
