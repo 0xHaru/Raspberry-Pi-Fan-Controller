@@ -28,25 +28,31 @@ Raspberry-Pi-Fan-Controller is a temperature based fan controller that turns the
 
 ## Installation
 
-Clone the repository:
+1\) Installation script:
 
-```bash
-git clone https://github.com/0xharu/raspberry-pi-fan-controller.git
-```
-
-Installation script:
+The installation script will create an executable script, a config file and if selected it will autostart the script at boot.
 
 ```bash
 sh -c "$(wget -qO- https://raw.githubusercontent.com/0xharu/raspberry-pi-fan-controller/master/install.sh)"
 ```
-
-The installation script will create an executable script, a config file and if selected it will autostart the script at boot, it automates a lot of stuff and is simple to use check it out!
 
 To **uninstall** the program and all of its files use:
 
 ```bash
 sh -c "$(wget -qO- https://raw.githubusercontent.com/0xharu/raspberry-pi-fan-controller/master/uninstall.sh)"
 ```
+
+2\) Clone the repository:
+
+```bash
+git clone https://github.com/0xharu/raspberry-pi-fan-controller.git
+```
+
+3\) DownGit Links:
+
+-   [fan.py](https://downgit.github.io/#/home?url=https://github.com/0xHaru/Raspberry-Pi-Fan-Controller/blob/master/fan.py)
+
+-   [fan.sh](https://downgit.github.io/#/home?url=https://github.com/0xHaru/Raspberry-Pi-Fan-Controller/blob/master/fan.sh)
 
 #### Manual inspection
 
