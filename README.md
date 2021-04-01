@@ -64,7 +64,7 @@ git clone https://github.com/0xharu/raspberry-pi-fan-controller.git
 
 ## Usage
 
-If you cloned the repository to run the script use: `python3 fan.py` or `bash fan.sh`.
+If you cloned the repository or used the DownGit links use: `python3 fan.py` or `bash fan.sh`.
 
 If you used the installation script and installed only one of the scripts use: `fan`
 
